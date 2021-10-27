@@ -1,0 +1,62 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js start
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Shinriel\bin;C:\Python310\Scripts;C:\Python310;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Users\Shinriel\AppData\Local\Android\Sdk\tools;C:\Users\Shinriel\AppData\Local\Android\Sdk\platform-tools;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\CMake\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\Shinriel\AppData\Local\.meteor;C:\Users\Shinriel\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin;C:\Program Files\Git LFS;C:\Program Files\PuTTY;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;D:\Program Files\AwsCli;D:\Program Files\AWSSAMCLI\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;D:\Program Files\Process Lasso;C:\Program Files (x86)\HEMTT\bin;C:\Program Files (x86)\dotnet;D:\Program Files\MongoDB\Tools\100\bin;C:\Program Files\Pandoc;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Program Files\Python39\Scripts;D:\Program Files\Python39;C:\Users\Shinriel\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Users\Shinriel\AppData\Local\.meteor;C:\Program Files\heroku\bin;C:\Program Files (x86)\Windows Kits\8.1\bin\x86;C:\Program Files\Microsoft VS Code2\bin;C:\Program Files (x86)\Mikero\DePboTools\bin;C:\Users\Shinriel\AppData\Roaming\npm;C:\Users\Shinriel\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Shinriel\AppData\Local\Yarn\bin;C:\Users\Shinriel\AppData\Local\GitHubDesktop\bin;C:\Users\Shinriel\.dotnet\tools;C:\Users\Shinriel\.dotnet\tools;C:\Users\Shinriel\AppData\Local\Microsoft\WindowsApps
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  12.22.1
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "epic-game",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "run": "npx hardhat run scripts/run.js",
+      "deploy": "npx hardhat run scripts/deploy.js --network rinkeby",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "updateJsonContract": "cp artifacts/contracts/MyEpicGame.sol/MyEpicGame.json front-react/src/utils/MyEpicGame.json"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@nomiclabs/hardhat-ethers": "^2.0.2",
+      "@nomiclabs/hardhat-waffle": "^2.0.1",
+      "chai": "^4.3.4",
+      "dotenv": "^10.0.0",
+      "ethereum-waffle": "^3.4.0",
+      "ethers": "^5.5.1",
+      "hardhat": "^2.6.7"
+    },
+    "dependencies": {
+      "@openzeppelin/contracts": "^4.3.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Command "start" not found.
+      at new MessageError (C:\Program Files (x86)\Yarn\lib\cli.js:186:110)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:87307:17
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:98:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:116:14
+      at new Promise (<anonymous>)
+      at new F (C:\Program Files (x86)\Yarn\lib\cli.js:23451:28)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:95:12
+      at runCommand (C:\Program Files (x86)\Yarn\lib\cli.js:87312:22)
+      at Object.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:87412:14)
