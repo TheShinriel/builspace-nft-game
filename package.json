@@ -7,8 +7,7 @@
     "run": "npx hardhat run scripts/run.js",
     "deploy": "npx hardhat run scripts/deploy.js --network rinkeby",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "updateJsonContract": "cp artifacts/contracts/MyEpicGame.sol/MyEpicGame.json front-react/src/utils/MyEpicGame.json",
-    "preinstall": "node preinstall.js"
+    "updateJsonContract": "cp artifacts/contracts/MyEpicGame.sol/MyEpicGame.json front-react/src/utils/MyEpicGame.json"
   },
   "keywords": [],
   "author": "",
